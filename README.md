@@ -24,7 +24,8 @@ I was given two types files to work with, a large file containing the forward re
 *Figure 2: The two types of files to compare are the Pseudacris feriarum forward reads file in FASTQ format (left) and the FASTA files of probe sequences for various vertebrates (right).*
 
 I wrote three programs to compare the files.  One program compares reads to probes and prints out the best match for each read. To run the program, type or paste into the command line:
-$ python CompareProbes2Reads.py ProbeRegionSeqsX.fasta seqsX.outputs
+
+```$ python CompareProbes2Reads.py ProbeRegionSeqsX.fasta seqsX.outputs```
 
 The second argument (ProbeRegionSeqsX.fasta) is the name of the probe to compare to the forward reads and the second argument (seqsX.outputs) can be any name to give to the output file. The program takes 0.038 seconds to create the probe dictionary and another 1775.9 seconds (half an hour) to compare the probe dictionary to the reads and print the best match results for each read to the output file.The second program compares probes to probes and prints out the total percentage of loci that match to the command line. To run the program, type or paste into the command line: 
 
