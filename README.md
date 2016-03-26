@@ -5,7 +5,7 @@ Assembly of Anchored Hybrid Enrichment Data
 ### Background
 
 
-Sequence assembly is the aligning and merging of fragments of a DNA sequence in order to reconstruct that sequence. For this project, the fragments (reads) are the result of utilizing enrichment probes of highly conserved regions to capture more rapidly evolving adjacent regions (anchored enrichment) and sequencing the resulting fragments using high-throughput sequencing. The probes were specifically designed for target enrichment of over 500 loci in highly conserved anchor regions of vertebrate genomes. The loci were chosen by the deveoper of Anchored Phylogenomics, Dr. Alan Lemmon, to be conserved in the middle and not conserved on the outside.
+Sequence assembly is the aligning and merging of fragments of a DNA sequence in order to reconstruct that sequence. For this project, the fragments (reads) are the result of utilizing enrichment probes of highly conserved regions to capture more rapidly evolving adjacent regions (anchored enrichment) and sequencing the resulting fragments using high-throughput sequencing. The probes were specifically designed for target enrichment of over 500 loci in highly conserved anchor regions of vertebrate genomes. The loci were chosen by the developer of Anchored Phylogenomics, Dr. Alan Lemmon, to be conserved in the middle and not conserved on the outside.
 
 
  ![Figure1](https://raw.githubusercontent.com/AlishaMechtley/NextGenerationSequencing/master/images/ProbePic.png)
